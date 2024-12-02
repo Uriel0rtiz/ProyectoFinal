@@ -12,11 +12,17 @@ namespace ProyectoFinalV1
 {
     public partial class FormProductos : Form
     {
+        //Declaramos un folio para la compra
+        private int folio=1;
+        public int Folio { get; set; } //Propiedad para el folio
+
         // Constructor vacio
         public FormProductos()
         {
             InitializeComponent();
         }
+
+
 
         // Constructor por parametros (recibe el nombre de la persona que ingreso)
         public FormProductos(string nombre)
@@ -25,6 +31,11 @@ namespace ProyectoFinalV1
             InitializeComponent();
             // Ponemos le nombre recibido en nuestro textBox
             textBox_Nombre.Text = nombre;
+        }
+
+        public FormProductos(int folio)
+        {
+            this.Folio = folio;
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]

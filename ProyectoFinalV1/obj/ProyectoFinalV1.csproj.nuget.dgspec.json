@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alegr\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\ProyectoFinalV1.csproj": {}
+    "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\ProyectoFinalV1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alegr\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\ProyectoFinalV1.csproj": {
+    "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\ProyectoFinalV1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alegr\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\ProyectoFinalV1.csproj",
+        "projectUniqueName": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\ProyectoFinalV1.csproj",
         "projectName": "ProyectoFinalV1",
-        "projectPath": "C:\\Users\\alegr\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\ProyectoFinalV1.csproj",
-        "packagesPath": "C:\\Users\\alegr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alegr\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\obj\\",
+        "projectPath": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\ProyectoFinalV1.csproj",
+        "packagesPath": "C:\\Users\\OSCAR ISC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alegr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OSCAR ISC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,14 @@
             "MySql.Data": {
               "target": "Package",
               "version": "[9.1.0, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.4, )"
+            },
+            "itextsharp.xmlworker": {
+              "target": "Package",
+              "version": "[5.5.13.4, )"
             }
           },
           "imports": [

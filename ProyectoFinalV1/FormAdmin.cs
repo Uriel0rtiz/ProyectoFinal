@@ -19,8 +19,8 @@ namespace ProyectoFinalV1
     {
 
         // Variable global para cargar el nombre de las imagenes a cargar
-        string NombreModificar;
-        string NombreSubir;
+        string NombreModificar="";
+        string NombreSubir="";
 
         public FormAdmin()
         {

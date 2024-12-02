@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alegr\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\",
+  "WorkspaceRootPath": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|c:\\users\\alegr\\desktop\\proyectofinal\\proyectofinalv1\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|solutionrelative:formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|solutionrelative:formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|c:\\users\\alegr\\desktop\\proyectofinal\\proyectofinalv1\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|c:\\users\\oscar isc\\desktop\\proyectofinal\\proyectofinalv1\\formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|solutionrelative:formproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|c:\\users\\oscar isc\\desktop\\proyectofinal\\proyectofinalv1\\generadorpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|solutionrelative:generadorpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|c:\\users\\oscar isc\\desktop\\proyectofinal\\proyectofinalv1\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|solutionrelative:formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|c:\\users\\oscar isc\\desktop\\proyectofinal\\proyectofinalv1\\proyectofinalv1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|solutionrelative:proyectofinalv1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 2,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormAdmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\alegr\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\FormAdmin.cs",
-              "RelativeDocumentMoniker": "FormAdmin.cs",
-              "ToolTip": "C:\\Users\\alegr\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\FormAdmin.cs [Design]*",
-              "RelativeToolTip": "FormAdmin.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T18:59:50.585Z",
-              "EditorCaption": " [Design]"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\alegr\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\FormAdmin.cs",
-              "RelativeDocumentMoniker": "FormAdmin.cs",
-              "ToolTip": "C:\\Users\\alegr\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\FormAdmin.cs*",
-              "RelativeToolTip": "FormAdmin.cs*",
-              "ViewState": "AgIAAMkAAAAAAAAAAAAnwPMAAAAMAAAAAAAAAA==",
+              "Title": "FormProductos.cs",
+              "DocumentMoniker": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\FormProductos.cs",
+              "RelativeDocumentMoniker": "FormProductos.cs",
+              "ToolTip": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\FormProductos.cs",
+              "RelativeToolTip": "FormProductos.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T17:38:32.518Z",
+              "WhenOpened": "2024-12-02T20:31:51.119Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormProductos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\FormProductos.cs",
+              "RelativeDocumentMoniker": "FormProductos.cs",
+              "ToolTip": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\FormProductos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormProductos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T20:29:49.084Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProyectoFinalV1.csproj",
+              "DocumentMoniker": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\ProyectoFinalV1.csproj",
+              "RelativeDocumentMoniker": "ProyectoFinalV1.csproj",
+              "ToolTip": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\ProyectoFinalV1.csproj",
+              "RelativeToolTip": "ProyectoFinalV1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-02T20:07:04.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GeneradorPdf.cs",
+              "DocumentMoniker": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\GeneradorPdf.cs",
+              "RelativeDocumentMoniker": "GeneradorPdf.cs",
+              "ToolTip": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\GeneradorPdf.cs",
+              "RelativeToolTip": "GeneradorPdf.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T19:52:16.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\FormAdmin.cs",
+              "RelativeDocumentMoniker": "FormAdmin.cs",
+              "ToolTip": "C:\\Users\\OSCAR ISC\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\FormAdmin.cs",
+              "RelativeToolTip": "FormAdmin.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAMwBYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T17:38:32.518Z"
             }
           ]
         }

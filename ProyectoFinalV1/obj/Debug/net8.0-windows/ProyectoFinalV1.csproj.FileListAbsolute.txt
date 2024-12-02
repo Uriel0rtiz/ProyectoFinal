@@ -280,3 +280,41 @@ C:\Users\Alegria\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\
 C:\Users\Alegria\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.pdb
 C:\Users\Alegria\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.genruntimeconfig.cache
 C:\Users\Alegria\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ref\ProyectoFinalV1.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\ProyectoFinalV1.exe
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\ProyectoFinalV1.deps.json
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\ProyectoFinalV1.runtimeconfig.json
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\ProyectoFinalV1.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\ProyectoFinalV1.pdb
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\itextsharp.xmlworker.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.csproj.AssemblyReference.cache
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.FormAdmin.resources
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.FormLogIn.resources
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.FormPortada.resources
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.FormProductos.resources
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.Properties.Resources.resources
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.csproj.GenerateResource.cache
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.AssemblyInfoInputs.cache
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.AssemblyInfo.cs
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.csproj.CoreCompileInputs.cache
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.sourcelink.json
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\Proyecto.9D4A2AD6.Up2Date
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\refint\ProyectoFinalV1.dll
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.pdb
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ProyectoFinalV1.genruntimeconfig.cache
+C:\Users\OSCAR ISC\Desktop\ProyectoFinal\ProyectoFinalV1\obj\Debug\net8.0-windows\ref\ProyectoFinalV1.dll

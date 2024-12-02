@@ -9,6 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.4" />
+    <PackageReference Include="itextsharp.xmlworker" Version="5.5.13.4" />
     <PackageReference Include="MySql.Data" Version="9.1.0" />
   </ItemGroup>
 
@@ -25,6 +27,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Tickets\" />
   </ItemGroup>
 
 </Project>
