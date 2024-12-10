@@ -1,7 +1,32 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alegria\\Desktop\\ProyectoFinal\\ProyectoFinalV1\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|solutionrelative:formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|c:\\users\\uriel\\onedrive\\desktop\\rama alegria\\proyectofinal\\proyectofinalv1\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|solutionrelative:formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|solutionrelative:formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\formgrafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|solutionrelative:formgrafica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|c:\\users\\uriel\\onedrive\\desktop\\rama alegria\\proyectofinal\\proyectofinalv1\\formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|solutionrelative:formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB66F1B0-E526-4F56-8D53-094F3AB041D9}|ProyectoFinalV1.csproj|solutionrelative:formcarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormPago.cs",
+              "DocumentMoniker": "C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\FormPago.cs",
+              "RelativeDocumentMoniker": "FormPago.cs",
+              "ToolTip": "C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\FormPago.cs",
+              "RelativeToolTip": "FormPago.cs",
+              "ViewState": "AQIAABIBAAAAAAAAAAAAACgBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T07:29:09.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\FormAdmin.cs",
+              "RelativeDocumentMoniker": "FormAdmin.cs",
+              "ToolTip": "C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\FormAdmin.cs",
+              "RelativeToolTip": "FormAdmin.cs",
+              "ViewState": "AQIAAGwBAAAAAAAAAAAAAIIBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T07:27:42.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormAdmin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\FormAdmin.cs",
+              "RelativeDocumentMoniker": "FormAdmin.cs",
+              "ToolTip": "C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\FormAdmin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormAdmin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T07:27:39.424Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormGrafica.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\FormGrafica.cs",
+              "RelativeDocumentMoniker": "FormGrafica.cs",
+              "ToolTip": "C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\FormGrafica.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormGrafica.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T07:27:33.683Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormPago.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\FormPago.cs",
+              "RelativeDocumentMoniker": "FormPago.cs",
+              "ToolTip": "C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\FormPago.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormPago.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T07:27:08.386Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormCarrito.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\FormCarrito.cs",
+              "RelativeDocumentMoniker": "FormCarrito.cs",
+              "ToolTip": "C:\\Users\\uriel\\OneDrive\\Desktop\\RAMA ALEGRIA\\ProyectoFinal\\ProyectoFinalV1\\FormCarrito.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormCarrito.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T07:26:59.13Z"
             }
           ]
         }

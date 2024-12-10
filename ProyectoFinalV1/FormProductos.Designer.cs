@@ -48,6 +48,7 @@
             buttonComprarJuego2 = new Button();
             buttonComprarJuego3 = new Button();
             panel1 = new Panel();
+            btncerrar = new PictureBox();
             btnminimizar = new PictureBox();
             buttonComprarJuego10 = new Button();
             buttonComprarJuego9 = new Button();
@@ -112,6 +113,7 @@
             StockJuego4 = new TextBox();
             ImagenJuego4 = new PictureBox();
             TituloJuego4 = new TextBox();
+            pictureBox1 = new PictureBox();
             label2 = new Label();
             label1 = new Label();
             buttonComprarJuego4 = new Button();
@@ -133,11 +135,11 @@
             ImagenJuego2 = new PictureBox();
             TituloJuego2 = new TextBox();
             panel4 = new Panel();
-            pictureBox1 = new PictureBox();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ImagenJuego1).BeginInit();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)btncerrar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnminimizar).BeginInit();
             panel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)ImagenJuego10).BeginInit();
@@ -154,13 +156,13 @@
             ((System.ComponentModel.ISupportInitialize)ImagenJuego5).BeginInit();
             panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)ImagenJuego4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
             panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)ImagenJuego3).BeginInit();
             panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)ImagenJuego2).BeginInit();
             panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // button_LogOut
@@ -197,6 +199,7 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(1500, 100);
             panel3.TabIndex = 6;
+            panel3.Paint += panel3_Paint;
             panel3.MouseDown += panel3_MouseDown;
             // 
             // button_Carrito
@@ -424,6 +427,7 @@
             // 
             panel1.AutoScroll = true;
             panel1.BackColor = Color.Transparent;
+            panel1.Controls.Add(btncerrar);
             panel1.Controls.Add(btnminimizar);
             panel1.Controls.Add(buttonComprarJuego10);
             panel1.Controls.Add(buttonComprarJuego9);
@@ -451,7 +455,6 @@
             panel1.Controls.Add(buttonComprarJuego2);
             panel1.Controls.Add(buttonComprarJuego1);
             panel1.Controls.Add(panel2);
-            panel1.Controls.Add(pictureBox1);
             panel1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             panel1.ForeColor = Color.LightGray;
             panel1.Location = new Point(0, 105);
@@ -459,12 +462,24 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1500, 601);
             panel1.TabIndex = 4;
+            panel1.Paint += panel1_Paint;
+            // 
+            // btncerrar
+            // 
+            btncerrar.Image = (Image)resources.GetObject("btncerrar.Image");
+            btncerrar.Location = new Point(1435, 3);
+            btncerrar.Name = "btncerrar";
+            btncerrar.Size = new Size(25, 25);
+            btncerrar.SizeMode = PictureBoxSizeMode.StretchImage;
+            btncerrar.TabIndex = 42;
+            btncerrar.TabStop = false;
+            btncerrar.Click += btncerrar_Click_1;
             // 
             // btnminimizar
             // 
             btnminimizar.BackColor = Color.FromArgb(27, 40, 56);
             btnminimizar.Image = (Image)resources.GetObject("btnminimizar.Image");
-            btnminimizar.Location = new Point(1436, 11);
+            btnminimizar.Location = new Point(1404, 11);
             btnminimizar.Name = "btnminimizar";
             btnminimizar.Size = new Size(25, 6);
             btnminimizar.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -798,6 +813,7 @@
             ImagenJuego8.SizeMode = PictureBoxSizeMode.StretchImage;
             ImagenJuego8.TabIndex = 31;
             ImagenJuego8.TabStop = false;
+            ImagenJuego8.Click += ImagenJuego8_Click;
             // 
             // TituloJuego8
             // 
@@ -884,6 +900,7 @@
             panel7.Controls.Add(panel10);
             panel7.Controls.Add(ImagenJuego4);
             panel7.Controls.Add(TituloJuego4);
+            panel7.Controls.Add(pictureBox1);
             panel7.Location = new Point(3, 683);
             panel7.Name = "panel7";
             panel7.Size = new Size(1477, 479);
@@ -1269,6 +1286,15 @@
             TituloJuego4.Size = new Size(178, 20);
             TituloJuego4.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(1123, 148);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(412, 349);
+            pictureBox1.TabIndex = 41;
+            pictureBox1.TabStop = false;
+            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -1529,15 +1555,6 @@
             panel4.Size = new Size(294, 91);
             panel4.TabIndex = 9;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(1070, 1503);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(412, 349);
-            pictureBox1.TabIndex = 41;
-            pictureBox1.TabStop = false;
-            // 
             // FormProductos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1553,6 +1570,7 @@
             Opacity = 0.95D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormProductos";
+            Load += FormProductos_Load;
             MouseDown += FormProductos_MouseDown;
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
@@ -1560,6 +1578,7 @@
             ((System.ComponentModel.ISupportInitialize)ImagenJuego1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)btncerrar).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnminimizar).EndInit();
             panel14.ResumeLayout(false);
             panel14.PerformLayout();
@@ -1584,6 +1603,7 @@
             panel10.ResumeLayout(false);
             panel10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)ImagenJuego4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel6.ResumeLayout(false);
@@ -1594,7 +1614,6 @@
             ((System.ComponentModel.ISupportInitialize)ImagenJuego2).EndInit();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -1704,5 +1723,6 @@
         private TextBox textBox_ConteoCarrito;
         private PictureBox ImagenJuego7;
         private PictureBox btnminimizar;
+        private PictureBox btncerrar;
     }
 }

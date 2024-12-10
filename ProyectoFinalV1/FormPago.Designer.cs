@@ -41,6 +41,7 @@
             radioButton_Tarjeta = new RadioButton();
             panel3 = new Panel();
             panel2 = new Panel();
+            PagoEfectivo = new Button();
             label3 = new Label();
             panel1 = new Panel();
             pictureBox2 = new PictureBox();
@@ -62,7 +63,7 @@
             label9 = new Label();
             label12 = new Label();
             panel16 = new Panel();
-            textBox_Nombre = new TextBox();
+            textBox6 = new TextBox();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
@@ -123,10 +124,11 @@
             textBox_MesTarjeta.Location = new Point(0, 2);
             textBox_MesTarjeta.Margin = new Padding(3, 2, 3, 2);
             textBox_MesTarjeta.Name = "textBox_MesTarjeta";
-            textBox_MesTarjeta.PlaceholderText = "mm";
+            textBox_MesTarjeta.PlaceholderText = "dd/mm";
             textBox_MesTarjeta.Size = new Size(72, 19);
             textBox_MesTarjeta.TabIndex = 5;
             textBox_MesTarjeta.TextAlign = HorizontalAlignment.Center;
+            textBox_MesTarjeta.TextChanged += textBox_MesTarjeta_TextChanged;
             // 
             // textBox_YearTarjeta
             // 
@@ -166,6 +168,7 @@
             textBox_TotalCompra.PlaceholderText = "Total compra";
             textBox_TotalCompra.Size = new Size(99, 19);
             textBox_TotalCompra.TabIndex = 8;
+            textBox_TotalCompra.TextChanged += textBox_TotalCompra_TextChanged;
             // 
             // button_Pagar
             // 
@@ -225,10 +228,12 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(482, 82);
             panel3.TabIndex = 29;
+            panel3.MouseDown += panel3_MouseDown;
             // 
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(42, 71, 94);
+            panel2.Controls.Add(PagoEfectivo);
             panel2.Controls.Add(label3);
             panel2.Controls.Add(button_Pagar);
             panel2.Controls.Add(textBox_TotalCompra);
@@ -236,6 +241,24 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(330, 105);
             panel2.TabIndex = 30;
+            // 
+            // PagoEfectivo
+            // 
+            PagoEfectivo.BackColor = Color.FromArgb(23, 26, 33);
+            PagoEfectivo.FlatAppearance.BorderSize = 0;
+            PagoEfectivo.FlatAppearance.MouseDownBackColor = Color.FromArgb(28, 28, 28);
+            PagoEfectivo.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 60, 60);
+            PagoEfectivo.FlatStyle = FlatStyle.Flat;
+            PagoEfectivo.Font = new Font("Century Gothic", 11.25F);
+            PagoEfectivo.ForeColor = Color.LightGray;
+            PagoEfectivo.Location = new Point(22, 59);
+            PagoEfectivo.Margin = new Padding(3, 2, 3, 2);
+            PagoEfectivo.Name = "PagoEfectivo";
+            PagoEfectivo.Size = new Size(286, 28);
+            PagoEfectivo.TabIndex = 11;
+            PagoEfectivo.Text = "Completar pago";
+            PagoEfectivo.UseVisualStyleBackColor = false;
+            PagoEfectivo.Click += button1_Click;
             // 
             // label3
             // 
@@ -267,6 +290,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(482, 215);
             panel1.TabIndex = 31;
+            panel1.Paint += panel1_Paint;
             // 
             // pictureBox2
             // 
@@ -413,6 +437,7 @@
             PanelEfectivo.Name = "PanelEfectivo";
             PanelEfectivo.Size = new Size(482, 144);
             PanelEfectivo.TabIndex = 34;
+            PanelEfectivo.Paint += PanelEfectivo_Paint;
             // 
             // panel11
             // 
@@ -435,6 +460,7 @@
             textBox_Efectivo.PlaceholderText = "Cantidad";
             textBox_Efectivo.Size = new Size(141, 19);
             textBox_Efectivo.TabIndex = 11;
+            textBox_Efectivo.TextChanged += textBox_Efectivo_TextChanged_1;
             // 
             // label9
             // 
@@ -462,23 +488,23 @@
             // panel16
             // 
             panel16.BackColor = Color.FromArgb(23, 26, 33);
-            panel16.Controls.Add(textBox_Nombre);
+            panel16.Controls.Add(textBox6);
             panel16.Location = new Point(15, 35);
             panel16.Name = "panel16";
             panel16.Size = new Size(452, 27);
             panel16.TabIndex = 8;
             // 
-            // textBox_Nombre
+            // textBox6
             // 
-            textBox_Nombre.BackColor = Color.FromArgb(23, 26, 33);
-            textBox_Nombre.BorderStyle = BorderStyle.None;
-            textBox_Nombre.Font = new Font("Century Gothic", 11.25F);
-            textBox_Nombre.ForeColor = Color.LightGray;
-            textBox_Nombre.Location = new Point(3, 2);
-            textBox_Nombre.Margin = new Padding(3, 2, 3, 2);
-            textBox_Nombre.Name = "textBox_Nombre";
-            textBox_Nombre.Size = new Size(446, 19);
-            textBox_Nombre.TabIndex = 4;
+            textBox6.BackColor = Color.FromArgb(23, 26, 33);
+            textBox6.BorderStyle = BorderStyle.None;
+            textBox6.Font = new Font("Century Gothic", 11.25F);
+            textBox6.ForeColor = Color.LightGray;
+            textBox6.Location = new Point(3, 2);
+            textBox6.Margin = new Padding(3, 2, 3, 2);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(446, 19);
+            textBox6.TabIndex = 4;
             // 
             // FormPago
             // 
@@ -494,9 +520,10 @@
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 2, 3, 2);
             Name = "FormPago";
-            StartPosition = FormStartPosition.CenterScreen;
+            Opacity = 0.95D;
             Text = "FormPago";
             Load += FormPago_Load;
+            MouseDown += FormPago_MouseDown;
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             panel2.ResumeLayout(false);
@@ -560,6 +587,7 @@
         private Label label9;
         private Label label12;
         private Panel panel16;
-        private TextBox textBox_Nombre;
+        private TextBox textBox6;
+        private Button PagoEfectivo;
     }
 }

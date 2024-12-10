@@ -73,6 +73,11 @@ namespace ProyectoFinalV1
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
+        private void btncerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         private void btnminimizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
@@ -564,6 +569,11 @@ namespace ProyectoFinalV1
             }
         }
 
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void btncerrar_Click_1(object sender, EventArgs e)
         {
             if (carrito.Count() != 0)
@@ -574,6 +584,26 @@ namespace ProyectoFinalV1
             {
                 Application.Exit();
             }
+        }
+
+        private void ImagenJuego8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void FormProductos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
